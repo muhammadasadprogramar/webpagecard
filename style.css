@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  width: 100%;
+  height: 13vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav > .logo {
+  width: 3.3vw;
+  height: 7.3vh;
+  background-color: #4de059;
+  box-shadow: 5px 4px #85fa8f;
+  margin-left: 5rem;
+  border-radius: 0.6em;
+}
+
+nav > ul {
+  display: flex;
+}
+
+nav > ul > li {
+  list-style: none;
+  margin-right: 5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+nav > ul > li:hover {
+  font-size: 1.13rem;
+  color: #4de059;
+}
+
+.img-section {
+  width: 100%;
+  height: 75vh;
+  background: linear-gradient(
+      rgba(118, 243, 129, 0.527),
+      rgba(159, 252, 136, 0.445)
+    ),
+    url("images/imageheader.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: fill;
+  text-align: center;
+}
+
+.img-section > h1 {
+  font-size: 3.5rem;
+  padding-top: 7rem;
+}
+
+.img-section > p {
+  font-size: 1.3rem;
+  padding: 3rem 0;
+}
+
+.img-section > .btn1 {
+  background-color: #fff;
+  width: 17vw;
+  height: 8vh;
+  outline: none;
+  border: none;
+  border-radius: 0.4em;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  cursor: pointer;
+}
+
+.img-section > .btn1:hover {
+  font-size: 1.04rem;
+  color: #4de059;
+  font-family: sans-serif;
+}
+
+.product {
+  width: 100%;
+  height: 85vh;
+  text-align: center;
+}
+
+.product > h1 {
+  font-size: 2.8rem;
+  padding-top: 2.5rem;
+}
+
+.stars {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4rem;
+}
+
+.star {
+  width: 8.5vw;
+  height: 8.5vw;
+  background-color: #4de059;
+  font-size: 5rem;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.star1 {
+  width: 30%;
+  height: 55vh;
+}
+
+.star1 > h2 {
+  margin-top: 2rem;
+}
+
+.star1 > p {
+  margin-top: 1.2rem;
+  line-height: 1.3rem;
+  font-weight: bold;
+}
+
+.about {
+  width: 100%;
+  height: 80vh;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  padding-top: 4.5rem;
+  box-sizing: border-box;
+}
+
+.about > .left {
+  height: 65;
+  width: 40%;
+}
+
+.about > .right {
+  height: 65;
+  width: 40%;
+}
+
+.about > .left > h1 {
+  font-size: 2.6rem;
+  margin-top: 4.8rem;
+}
+
+.about > .left > p {
+  line-height: 1.4rem;
+  margin-top: 1.2rem;
+  font-weight: bold;
+}
+
+.introduction {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-arrow,
+.right-arrow {
+  font-size: 15rem;
+  padding: 0 4rem;
+}
+
+.introduction > img {
+  border-radius: 50%;
+}
+
+.mix {
+  margin-left: 2rem;
+}
+
+.mix > h3 {
+  font-size: 1.8rem;
+}
+
+.mix > p {
+  line-height: 1.4rem;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.form {
+  width: 100%;
+  height: 27vh;
+  background-color: #4de059;
+  text-align: center;
+  align-items: center;
+}
+
+.form > input {
+  width: 43%;
+  height: 13vh;
+  background: none;
+  outline: none;
+  border: none;
+  border: 2px solid #fff;
+  border-radius: 0.4em;
+  padding-left: 2rem;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.form > input::placeholder {
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.form > .subscribe {
+  width: 15%;
+  height: 13vh;
+  background-color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 0.4em;
+  font-size: 1.3rem;
+  color: #4de059;
+  cursor: pointer;
+  margin-top: 2.9rem;
+  margin-left: 1.2rem;
+}
+
+.form > .subscribe:hover {
+  font-size: 1.37rem;
+  color: #000;
+}
+
+.footer {
+  width: 100%;
+  height: 39vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parts {
+  width: 30%;
+  height: 37vh;
+  margin-left: 2rem;
+  box-sizing: border-box;
+}
+
+.parts > h2 {
+  margin-top: 1.8rem;
+}
+
+.parts > p {
+  line-height: 1.3rem;
+  margin-top: 0.9rem;
+  font-weight: 500;
+}
+
+.text1 {
+  padding-left: 5.8rem;
+}
+
+.text2 {
+  padding-left: 7rem;
+}
+
+.part3 > .icons > img {
+  width: 25px;
+  height: 25px;
+  margin-top: 0.8rem;
+  padding-left: 0.4rem;
+  cursor: pointer;
+}
+
+.part3 > .icons > .youtube {
+  width: 30px;
+}
